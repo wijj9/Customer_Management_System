@@ -1,0 +1,2 @@
+run Spring app : mvn spring-boot:run
+end Spring app : ctrl + c

@@ -10,7 +10,7 @@ import javax.persistence.Id;
 @Entity
 public class Customer {
     @Id //primary key
-    @GeneratedValue(strategy = GenerationType.AUTO)//the id will be generated automatically
+    @GeneratedValue(strategy = GenerationType.AUTO)//with this tag the id will be generated automatically
 
     @JsonProperty("id")
     private int customerId;
